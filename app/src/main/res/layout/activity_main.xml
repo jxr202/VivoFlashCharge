@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.vivo.flashcharge.MainActivity">
+
+    <com.vivo.flashcharge.FlashChargeView
+        android:id="@+id/chargeView"
+        android:layout_width="180dip"
+        android:layout_height="180dip"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
